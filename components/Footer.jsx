@@ -1,8 +1,11 @@
 const Footer = () => {
+  const date = new Date();
+  const currentYear = date.getFullYear();
+
   return (
-    <div>
-      <h1>Copyright Bobstyle_023 2021</h1>
-    </div>
+    <footer>
+      <h1>Copyright Bobstyle_023 {currentYear}</h1>
+    </footer>
   );
 };
 
